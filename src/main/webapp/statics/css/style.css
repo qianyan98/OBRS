@@ -1,0 +1,521 @@
+.head{
+    height: 70px;
+    background: #b4a7a7;
+    z-index: 1000;
+    position: relative;
+}
+.head-container{
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    font-size: 30px;
+    font-family: "楷体";
+    color: black;
+    font-style: oblique;
+}
+.welcomeTip{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.logoutBtn{
+    display: inline-block;
+    right: 30px;
+    top: 15px;
+    position: absolute;
+}
+button[name="logout"]{
+    color: black;
+    height: 30px;
+}
+button[name="logout"] a{
+    color: black;
+}
+.nav{
+    height: 60px;
+    background: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.userAction li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+.userAction li a{
+    color: ghostwhite;
+}
+.userAction li a:hover{
+    color: coral;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: lightgray;
+}
+
+.middle{
+    height: 553px;
+    width: 870px;
+    margin: 20px auto;
+}
+/*.location{*/
+/*    margin-top: 10px;*/
+/*    margin-left: 12px;*/
+/*}*/
+.search{
+    margin-top: 20px;
+    text-align: center;
+}
+.search span{
+    margin: 10px 7px;
+}
+#searchButton{
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+}
+.left{
+    height: 100%;
+    width: 900px;
+    display: inline-block;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+.right{
+    float: right;
+    margin-right: 10px;
+}
+.loginTip{
+    margin-top: 230px;
+    margin-right: 105px;
+    font-size: 40px;
+    color: burlywood;
+    font-style: oblique;
+}
+.loginForm, .registerForm{
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.loginForm p, .registerForm p{
+    margin: 20px 20px;
+}
+.verifyCode, input[name="verificationCode"]{
+    vertical-align: middle;
+}
+.loginBtn, .registerBtn{
+    padding-top: 20px;
+    padding-left: 55px;
+}
+.loginBtn input[type="submit"], .registerBtn input[type="submit"]{
+    width: 60px;
+    height: 30px;
+}
+.loginBtn input[type="reset"], .registerBtn input[type="reset"]{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.error404{
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/404.png");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.backHome404{
+    position: absolute;
+    bottom: 160px;
+    left: 700px;
+    height: 30px;
+}
+.allBookList .providerTable{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.providerTable tr {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.providerTable tr:nth-child(odd) {
+    background: #f6f7f9;
+}
+
+.providerTable tr:hover {
+    background: #e9f9ca;
+}
+
+.firstTr {
+    border: 1px solid #d6dfe6;
+    background: linear-gradient(to bottom, #f3f8fc, #ebf4f9, #e3f1fa, #e0f0fd, #d8e9fd);
+}
+
+.firstTr th {
+    border-right: 2px solid rgba(209, 218, 223, 0.4);
+}
+
+.pageNum{
+    text-align: center;
+    margin-top: 30px;
+}
+.pageNum .pagination li a{
+    color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.pageNum .pagination li span{
+    color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.zhezhao{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background: #000;
+    overflow: hidden;
+}
+.noBook{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 260px;
+    left: 520px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.noBookTip{
+    text-align: center;
+}
+.noBookTip h2{
+    border-bottom: 1px solid #0b0312;
+    color: red;
+}
+.noBookText{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.noBookText p{
+    color:red;
+}
+.noBookText a{
+    color: black;
+    height: 30px;
+    display: block;
+    width: 60px;
+    border: 1px solid #5e8809;
+    margin: 40px auto;
+}
+.reserveDiv{
+    margin-left: 340px;
+}
+.reserveForm{
+    padding-top: 100px;
+}
+.reserveForm p{
+    padding: 10px;
+}
+.reserveBtn, .backBtn, .renewBtn, .updateBtn, .addBookBtn{
+    width: 60px;
+    height: 30px;
+    margin-left: 36px;
+}
+.reserveBtn:hover, .backBtn:hover, .updateBtn:hover, .saveBtn:hover{
+    background: #e9f9ca;
+}
+.bookInfo{
+    padding-left: 254px;
+    padding-top: 60px;
+}
+.bookInfo p input[type="text"]{
+    border: none;
+    background: white;
+    margin: 10px;
+}
+.bookIntro{
+    background: white;
+    border: none;
+    resize: none;
+    margin-left: 25px;
+}
+.bookIntro, .bookIntroTip{
+    vertical-align: text-top;
+}
+.myReserve .providerTable{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.deleteDlg, .renewDlg, .deleteBookDlg, .deleteUserDlg{
+    display: none;
+    position: absolute;
+    top: 260px;
+    left: 520px;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+.deleteDlg h2, .renewDlg h2, .deleteBookDlg h2, .deleteUserDlg h2{
+    text-align: center;
+    border: 1px solid black;
+    color: #961600;
+    padding-bottom: 10px;
+}
+.deleteDlg .deleteDlgMain,
+.renewDlg .renewDlgMain,
+.deleteBookDlg .deleteBookDlgMain,
+.deleteUserDlg .deleteUserDlgMain{
+    text-align: center;
+    padding-top: 40px;
+}
+.deleteDlgMain .cancelBtn, .deleteDlgMain .OkBtn,
+.renewDlgOkBtn, .saveBtn, .changePwdBtn,
+.deleteBookDlgMain .cancelBtn, .deleteBookDlgMain .OkBtn,
+.deleteUserDlgMain .cancelBtn, .deleteUserDlgMain .OkBtn{
+    margin: 20px 10px;
+    width: 40px;
+    height: 30px;
+}
+.sideBar{
+    background: #191717;
+    font-size: 20px;
+    width: 160px;
+    height: calc(797px - 180px);
+    display: inline-block;
+    float: left;
+}
+.father{
+    height: 574px;
+    width: 1440px;
+}
+.father:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.sideBar ul li a{
+    color: white;
+}
+
+.sideBar ul li a:hover{
+    color: orange;
+}
+.sideBar ul li{
+    padding: calc((100vh - 180px) / 9) 32px;
+}
+.father .middle{
+    margin-left: 140px;
+    display: inline-block;
+}
+.informMain{
+    width: 350px;
+    margin: 95px 336px;
+}
+.informMain p{
+    padding: 20px 10px;
+}
+.modifyUserMain{
+    width: 550px;
+    margin: 70px 260px;
+}
+.modifyUserMain p{
+    padding: 20px 10px;
+}
+.modifyUserMain p input[type="text"]{
+    width: 200px;
+}
+.modifyUserMain p .saveBtn{
+    margin-left: 120px;
+    width: 70px;
+    height: 30px;
+}
+.modifyUserMain p #radio_girl{
+    margin-left: 50px;
+}
+.changePwdForm p input, .changePwdForm p input + img{
+    vertical-align: middle;
+}
+.adjustPwd{
+    margin-left: 5px;
+}
+.changePwdForm p{
+    margin: 20px auto;
+}
+.changePwdForm{
+    margin-left: 260px;
+    margin-top: 180px;
+}
+.changePwdBtn{
+    margin-left: 100px;
+}
+.changePwdDlg{
+    display: none;
+    position: absolute;
+    top: 260px;
+    left: 520px;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+.changePwdDlgMain{
+    text-align: center;
+}
+.changePwdDlgMain h2{
+    border: 1px solid black;
+    color: red;
+}
+.changePwdDlgContent{
+    padding-top: 30px;
+}
+.changePwdDlgContent + p{
+    margin-top: 20px;
+}
+.changePwdDlgContent + p input{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+.changePwdDlgContent + p input[name="submit"]{
+    color: red;
+}
+.adminSidebar{
+    height: calc(100vh - 120px);
+    width: 130px;
+    background: black;
+    overflow-y: scroll;
+    display: inline-block;
+}
+.adminActionList{
+    padding: 40px 0;
+}
+.adminActionList li{
+    padding: calc((100vh - 120px) / 12) 22px;
+}
+.adminActionList li a{
+    color: white;
+    font-size: 20px;
+}
+.adminActionList li a:hover{
+    color: #FF5722;
+}
+.admin_middle{
+    height: calc(100vh - 120px);
+    width: calc(100vw - 140px);
+    display: inline-block;
+    position: relative;
+    overflow: scroll;
+}
+.mainBg{
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+.bookInfo_admin{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.bookInfo_admin p input[type="text"]{
+    border: none;
+    background: white;
+    margin: 10px;
+}
+.bookInfo_admin form p input[type="text"]{
+    border: none;
+    background: white;
+    margin: 10px;
+}
+.addBookMain{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.addBookMain form p input[type="text"]{
+    border: none;
+    background: white;
+    margin: 10px;
+}
+.changePwdMain{
+    position: absolute;
+    left: 240px;
+}
+#reserveUserName, #reserveId, #reserveStatus, .reserveManageForm #searchButton{
+    vertical-align: text-top;
+}
+.sendEmail{
+    margin-top: 50px;
+    margin-left: 320px;
+}
+#emailTitle, #sendTo, .sendFrom{
+    width: 600px;
+    height: 30px;
+    border-radius: unset;
+    margin-left: 10px;
+}
+.sendFrom{
+    border: none;
+}
+.sendEmailForm p{
+    padding: 10px;
+}
+.toolBarList li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.toolBar2 img{
+    display: inline-block;
+}
+#textBox{
+    width: 560px;
+    height: 260px;
+    border: 1px solid;
+    display: inline-block;
+    overflow: scroll;
+    padding: 20px;
+}
+.emailContentTip{
+    display: inline-block;
+}
+.emailContentTip, #textBox{
+    vertical-align: text-top;
+}
+.toolBar1{
+    margin-left: 90px;
+}
+.toolBar2{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.intLink{
+    cursor: pointer;
+}
+
+
